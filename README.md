@@ -8,3 +8,8 @@ Basically, it's the act of searching for and finding web content. Therefore, bas
 Manually are manual searches that we can check from a website. Here we'll look at some ways of searching.
 
 ### **Robots.txt**
+This is a file designed to tell you which urls on a site can be accessed.With this file we can gain access to various locations that they don't want us to access or discover.
+
+**Example** -> https://target.com/robots.txt
+
+<code>You can learn more here: https://developers.google.com/search/docs/crawling-indexing/robots/intro?hl=pt-br</code>
