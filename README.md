@@ -10,7 +10,7 @@ Manually are manual searches that we can check from a website. Here we'll look a
 ### **Robots.txt**
 This is a file designed to tell you which urls on a site can be accessed.With this file we can gain access to various locations that they don't want us to access or discover.
 
-**Example** -> https://target.com/robots.txt
+##### **Example** -> https://target.com/robots.txt
 ```javascript
 User-agent: *
 Disallow: /admin
@@ -22,7 +22,10 @@ Allow: /admin-lore.php
 ### Sitemap.xml
 Sitemap is a file used by search engines that contains the structure of the site. In other words, it contains the relationships and information of the pages on a site. Often, robots.txt gives us access to where the sitemap directory is located, and one of the main differences is that robots.txt contains directories and files that should not be indexed. In this way, with small manual analyses like these, we can get a lot of information about the structure of a website.
 
-Example:
+<code>You can learn more here:
+https://www.sitemaps.org/protocol.html#otherformats</code>
+
+#### Examples:
 ```javascript
 <sitemapindex>
 <sitemap>
@@ -53,3 +56,11 @@ https://target.com/post-sitemap.xml	2900-02-02 10:19 +00:00
 https://target.com/page-sitemap.xml	2803-01-10 00:06 +00:00
 https://target.com/category-sitemap.xml	2072-02-07 01:19 +00:00
 ```
+
+### HTTP Headers
+HTTP headers are precisely the request and response between the node and the server. From it, we can gather information about the website and analyze possible vulnerabilities.
+
+<code>You can learn more here:
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers</code>
+#### Example:
+<p align="center"><img align="center" width="504" height="359" src="./assets/http-response-header.png"/></p>
