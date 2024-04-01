@@ -64,3 +64,17 @@ HTTP headers are precisely the request and response between the node and the ser
 https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers</code>
 #### Example:
 <p align="center"><img align="center" width="504" height="359" src="./assets/http-response-header.png"/></p>
+
+## OSINT
+Short for Open Source Intelligence, OSINT is a way of observing data in the digital environment.
+
+### Google Hacking
+Through the google search tool we can also access specific domains. Words like admin in the search can help filter and even facilitate access to possible vulnerabilities. A number of operators are used to carry out these searches:
+* site -> site:target.com ->  limits search results to a specific domain and subdomains.
+* filetype -> filetype:pdf -> limits results a specific file extension.
+* inurl -> inurl:admin -> limits search results to pages where the URL contains the specified keyword.
+* intitle -> intitle:admin -> limits  search results to pages where the title contains the specified keyword.
+* intext -> intext:password -> limits search results to pages where the text contains the specified keyword.
+
+<code>You can learn more here:
+https://www.acunetix.com/websitesecurity/google-hacking/</code>
