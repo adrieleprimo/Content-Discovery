@@ -78,3 +78,12 @@ Through the google search tool we can also access specific domains. Words like a
 
 <code>You can learn more here:
 https://www.acunetix.com/websitesecurity/google-hacking/</code>
+
+## Automated Discovery
+You can also use automated tools and a wordlist containing the most commonly used words. An example of a wordlist: 
+<code>https://github.com/danielmiessler/SecLists</code>
+
+ There are many automated tools, an example of which is the ffuf tool that helps discover content on web services.
+ ```shell-session
+ ffuf -w /usr/share/wordlists/SecLists/Discovery/Web-Content/common.txt -u http://IP_TARGET/FUZZ
+ ```
